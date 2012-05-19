@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F2ABF3D1567291700A6D2FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2ABF3C1567291700A6D2FE /* UIKit.framework */; };
+		6F2ABF3F1567291700A6D2FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2ABF3E1567291700A6D2FE /* Foundation.framework */; };
+		6F2ABF411567291700A6D2FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2ABF401567291700A6D2FE /* CoreGraphics.framework */; };
+		6F2ABF471567291700A6D2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ABF451567291700A6D2FE /* InfoPlist.strings */; };
+		6F2ABF491567291700A6D2FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2ABF481567291700A6D2FE /* main.m */; };
+		6F2ABF4D1567291800A6D2FE /* FZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2ABF4C1567291800A6D2FE /* FZAppDelegate.m */; };
+		6F2ABF501567291800A6D2FE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ABF4E1567291800A6D2FE /* MainStoryboard.storyboard */; };
+		6F2ABF531567291800A6D2FE /* FZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2ABF521567291800A6D2FE /* FZViewController.m */; };
+		6F2ABF5B1567291800A6D2FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2ABF5A1567291800A6D2FE /* SenTestingKit.framework */; };
+		6F2ABF5C1567291800A6D2FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2ABF3C1567291700A6D2FE /* UIKit.framework */; };
+		6F2ABF5D1567291800A6D2FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2ABF3E1567291700A6D2FE /* Foundation.framework */; };
+		6F2ABF651567291800A6D2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ABF631567291800A6D2FE /* InfoPlist.strings */; };
+		6F2ABF681567291800A6D2FE /* FizzBuzzCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2ABF671567291800A6D2FE /* FizzBuzzCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F2ABF5E1567291800A6D2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2ABF2F1567291700A6D2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F2ABF371567291700A6D2FE;
+			remoteInfo = FizzBuzzCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F2ABF381567291700A6D2FE /* FizzBuzzCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzzCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2ABF3C1567291700A6D2FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F2ABF3E1567291700A6D2FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F2ABF401567291700A6D2FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F2ABF441567291700A6D2FE /* FizzBuzzCalc-Info.plist */ = {isa = PBXFileReference; path = "FizzBuzzCalc-Info.plist"; sourceTree = "<group>"; };
+		6F2ABF461567291700A6D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F2ABF481567291700A6D2FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F2ABF4A1567291800A6D2FE /* FizzBuzzCalc-Prefix.pch */ = {isa = PBXFileReference; path = "FizzBuzzCalc-Prefix.pch"; sourceTree = "<group>"; };
+		6F2ABF4B1567291800A6D2FE /* FZAppDelegate.h */ = {isa = PBXFileReference; path = FZAppDelegate.h; sourceTree = "<group>"; };
+		6F2ABF4C1567291800A6D2FE /* FZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAppDelegate.m; sourceTree = "<group>"; };
+		6F2ABF4F1567291800A6D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6F2ABF511567291800A6D2FE /* FZViewController.h */ = {isa = PBXFileReference; path = FZViewController.h; sourceTree = "<group>"; };
+		6F2ABF521567291800A6D2FE /* FZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZViewController.m; sourceTree = "<group>"; };
+		6F2ABF591567291800A6D2FE /* FizzBuzzCalcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzCalcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2ABF5A1567291800A6D2FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6F2ABF621567291800A6D2FE /* FizzBuzzCalcTests-Info.plist */ = {isa = PBXFileReference; path = "FizzBuzzCalcTests-Info.plist"; sourceTree = "<group>"; };
+		6F2ABF641567291800A6D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F2ABF661567291800A6D2FE /* FizzBuzzCalcTests.h */ = {isa = PBXFileReference; path = FizzBuzzCalcTests.h; sourceTree = "<group>"; };
+		6F2ABF671567291800A6D2FE /* FizzBuzzCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FizzBuzzCalcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F2ABF351567291700A6D2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2ABF3D1567291700A6D2FE /* UIKit.framework in Frameworks */,
+				6F2ABF3F1567291700A6D2FE /* Foundation.framework in Frameworks */,
+				6F2ABF411567291700A6D2FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2ABF551567291800A6D2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2ABF5B1567291800A6D2FE /* SenTestingKit.framework in Frameworks */,
+				6F2ABF5C1567291800A6D2FE /* UIKit.framework in Frameworks */,
+				6F2ABF5D1567291800A6D2FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F2ABF2D1567291700A6D2FE = {
+			isa = PBXGroup;
+			children = (
+				6F2ABF421567291700A6D2FE /* FizzBuzzCalc */,
+				6F2ABF601567291800A6D2FE /* FizzBuzzCalcTests */,
+				6F2ABF3B1567291700A6D2FE /* Frameworks */,
+				6F2ABF391567291700A6D2FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F2ABF391567291700A6D2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F2ABF381567291700A6D2FE /* FizzBuzzCalc.app */,
+				6F2ABF591567291800A6D2FE /* FizzBuzzCalcTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F2ABF3B1567291700A6D2FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F2ABF3C1567291700A6D2FE /* UIKit.framework */,
+				6F2ABF3E1567291700A6D2FE /* Foundation.framework */,
+				6F2ABF401567291700A6D2FE /* CoreGraphics.framework */,
+				6F2ABF5A1567291800A6D2FE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F2ABF421567291700A6D2FE /* FizzBuzzCalc */ = {
+			isa = PBXGroup;
+			children = (
+				6F2ABF4B1567291800A6D2FE /* FZAppDelegate.h */,
+				6F2ABF4C1567291800A6D2FE /* FZAppDelegate.m */,
+				6F2ABF4E1567291800A6D2FE /* MainStoryboard.storyboard */,
+				6F2ABF511567291800A6D2FE /* FZViewController.h */,
+				6F2ABF521567291800A6D2FE /* FZViewController.m */,
+				6F2ABF431567291700A6D2FE /* Supporting Files */,
+			);
+			path = FizzBuzzCalc;
+			sourceTree = "<group>";
+		};
+		6F2ABF431567291700A6D2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F2ABF441567291700A6D2FE /* FizzBuzzCalc-Info.plist */,
+				6F2ABF451567291700A6D2FE /* InfoPlist.strings */,
+				6F2ABF481567291700A6D2FE /* main.m */,
+				6F2ABF4A1567291800A6D2FE /* FizzBuzzCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F2ABF601567291800A6D2FE /* FizzBuzzCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F2ABF661567291800A6D2FE /* FizzBuzzCalcTests.h */,
+				6F2ABF671567291800A6D2FE /* FizzBuzzCalcTests.m */,
+				6F2ABF611567291800A6D2FE /* Supporting Files */,
+			);
+			path = FizzBuzzCalcTests;
+			sourceTree = "<group>";
+		};
+		6F2ABF611567291800A6D2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F2ABF621567291800A6D2FE /* FizzBuzzCalcTests-Info.plist */,
+				6F2ABF631567291800A6D2FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F2ABF371567291700A6D2FE /* FizzBuzzCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2ABF6B1567291800A6D2FE /* Build configuration list for PBXNativeTarget "FizzBuzzCalc" */;
+			buildPhases = (
+				6F2ABF341567291700A6D2FE /* Sources */,
+				6F2ABF351567291700A6D2FE /* Frameworks */,
+				6F2ABF361567291700A6D2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FizzBuzzCalc;
+			productName = FizzBuzzCalc;
+			productReference = 6F2ABF381567291700A6D2FE /* FizzBuzzCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F2ABF581567291800A6D2FE /* FizzBuzzCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2ABF6E1567291800A6D2FE /* Build configuration list for PBXNativeTarget "FizzBuzzCalcTests" */;
+			buildPhases = (
+				6F2ABF541567291800A6D2FE /* Sources */,
+				6F2ABF551567291800A6D2FE /* Frameworks */,
+				6F2ABF561567291800A6D2FE /* Resources */,
+				6F2ABF571567291800A6D2FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F2ABF5F1567291800A6D2FE /* PBXTargetDependency */,
+			);
+			name = FizzBuzzCalcTests;
+			productName = FizzBuzzCalcTests;
+			productReference = 6F2ABF591567291800A6D2FE /* FizzBuzzCalcTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F2ABF2F1567291700A6D2FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FZ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = WisdomGroup;
+			};
+			buildConfigurationList = 6F2ABF321567291700A6D2FE /* Build configuration list for PBXProject "FizzBuzzCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F2ABF2D1567291700A6D2FE;
+			productRefGroup = 6F2ABF391567291700A6D2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F2ABF371567291700A6D2FE /* FizzBuzzCalc */,
+				6F2ABF581567291800A6D2FE /* FizzBuzzCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F2ABF361567291700A6D2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2ABF471567291700A6D2FE /* InfoPlist.strings in Resources */,
+				6F2ABF501567291800A6D2FE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2ABF561567291800A6D2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2ABF651567291800A6D2FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F2ABF571567291800A6D2FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F2ABF341567291700A6D2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2ABF491567291700A6D2FE /* main.m in Sources */,
+				6F2ABF4D1567291800A6D2FE /* FZAppDelegate.m in Sources */,
+				6F2ABF531567291800A6D2FE /* FZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2ABF541567291800A6D2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2ABF681567291800A6D2FE /* FizzBuzzCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F2ABF5F1567291800A6D2FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F2ABF371567291700A6D2FE /* FizzBuzzCalc */;
+			targetProxy = 6F2ABF5E1567291800A6D2FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F2ABF451567291700A6D2FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2ABF461567291700A6D2FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F2ABF4E1567291800A6D2FE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2ABF4F1567291800A6D2FE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6F2ABF631567291800A6D2FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2ABF641567291800A6D2FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F2ABF691567291800A6D2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F2ABF6A1567291800A6D2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F2ABF6C1567291800A6D2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FizzBuzzCalc/FizzBuzzCalc-Prefix.pch";
+				INFOPLIST_FILE = "FizzBuzzCalc/FizzBuzzCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F2ABF6D1567291800A6D2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FizzBuzzCalc/FizzBuzzCalc-Prefix.pch";
+				INFOPLIST_FILE = "FizzBuzzCalc/FizzBuzzCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F2ABF6F1567291800A6D2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FizzBuzzCalc.app/FizzBuzzCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FizzBuzzCalc/FizzBuzzCalc-Prefix.pch";
+				INFOPLIST_FILE = "FizzBuzzCalcTests/FizzBuzzCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6F2ABF701567291800A6D2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FizzBuzzCalc.app/FizzBuzzCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FizzBuzzCalc/FizzBuzzCalc-Prefix.pch";
+				INFOPLIST_FILE = "FizzBuzzCalcTests/FizzBuzzCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F2ABF321567291700A6D2FE /* Build configuration list for PBXProject "FizzBuzzCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2ABF691567291800A6D2FE /* Debug */,
+				6F2ABF6A1567291800A6D2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2ABF6B1567291800A6D2FE /* Build configuration list for PBXNativeTarget "FizzBuzzCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2ABF6C1567291800A6D2FE /* Debug */,
+				6F2ABF6D1567291800A6D2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F2ABF6E1567291800A6D2FE /* Build configuration list for PBXNativeTarget "FizzBuzzCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2ABF6F1567291800A6D2FE /* Debug */,
+				6F2ABF701567291800A6D2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F2ABF2F1567291700A6D2FE /* Project object */;
+}
