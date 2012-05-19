@@ -8,27 +8,37 @@
 
 #import "FZViewController.h"
 
+@interface FZViewController()
+@property (nonatomic) BOOL userIsInTheMiddleOfEnteringANumber;
+@end
+
 @interface FZViewController ()
 
 @end
 
 @implementation FZViewController
 
-- (void)viewDidLoad
+@synthesize display = _display;
+@synthesize userIsInTheMiddleOfEnteringANumber = _userIsInTheMiddleOfEnteringANumber;
+
+
+- (IBAction)digitPressed:(UIButton *)sender 
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSString *digit = [sender currentTitle];
+    if (self.userIsInTheMiddleOfEnteringANumber) {
+        self.display.text = [self.display.text stringByAppendingString:digit];
+    } else {
+        self.display.text = digit;
+        self.userIsInTheMiddleOfEnteringANumber = YES;
+    }
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+- (IBAction)operationPressed:(id)sender {
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+
+- (IBAction)clearDisplay:(id)sender {
+    self.display.text = 0;  //RTH's guess about resetting the display
 }
 
 @end

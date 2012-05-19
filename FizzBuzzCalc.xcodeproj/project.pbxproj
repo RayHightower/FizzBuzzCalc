@@ -37,20 +37,20 @@
 		6F2ABF3C1567291700A6D2FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F2ABF3E1567291700A6D2FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F2ABF401567291700A6D2FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6F2ABF441567291700A6D2FE /* FizzBuzzCalc-Info.plist */ = {isa = PBXFileReference; path = "FizzBuzzCalc-Info.plist"; sourceTree = "<group>"; };
+		6F2ABF441567291700A6D2FE /* FizzBuzzCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FizzBuzzCalc-Info.plist"; sourceTree = "<group>"; };
 		6F2ABF461567291700A6D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F2ABF481567291700A6D2FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F2ABF4A1567291800A6D2FE /* FizzBuzzCalc-Prefix.pch */ = {isa = PBXFileReference; path = "FizzBuzzCalc-Prefix.pch"; sourceTree = "<group>"; };
-		6F2ABF4B1567291800A6D2FE /* FZAppDelegate.h */ = {isa = PBXFileReference; path = FZAppDelegate.h; sourceTree = "<group>"; };
+		6F2ABF4A1567291800A6D2FE /* FizzBuzzCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FizzBuzzCalc-Prefix.pch"; sourceTree = "<group>"; };
+		6F2ABF4B1567291800A6D2FE /* FZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZAppDelegate.h; sourceTree = "<group>"; };
 		6F2ABF4C1567291800A6D2FE /* FZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZAppDelegate.m; sourceTree = "<group>"; };
 		6F2ABF4F1567291800A6D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6F2ABF511567291800A6D2FE /* FZViewController.h */ = {isa = PBXFileReference; path = FZViewController.h; sourceTree = "<group>"; };
+		6F2ABF511567291800A6D2FE /* FZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZViewController.h; sourceTree = "<group>"; };
 		6F2ABF521567291800A6D2FE /* FZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZViewController.m; sourceTree = "<group>"; };
 		6F2ABF591567291800A6D2FE /* FizzBuzzCalcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzCalcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2ABF5A1567291800A6D2FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6F2ABF621567291800A6D2FE /* FizzBuzzCalcTests-Info.plist */ = {isa = PBXFileReference; path = "FizzBuzzCalcTests-Info.plist"; sourceTree = "<group>"; };
+		6F2ABF621567291800A6D2FE /* FizzBuzzCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FizzBuzzCalcTests-Info.plist"; sourceTree = "<group>"; };
 		6F2ABF641567291800A6D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6F2ABF661567291800A6D2FE /* FizzBuzzCalcTests.h */ = {isa = PBXFileReference; path = FizzBuzzCalcTests.h; sourceTree = "<group>"; };
+		6F2ABF661567291800A6D2FE /* FizzBuzzCalcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FizzBuzzCalcTests.h; sourceTree = "<group>"; };
 		6F2ABF671567291800A6D2FE /* FizzBuzzCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FizzBuzzCalcTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
