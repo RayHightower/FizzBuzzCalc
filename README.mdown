@@ -1,0 +1,7 @@
+FizzBuzzCalc
+===
+
+This app was created mainly for its interface builder file, which will
+be used in a RubyMotion app.
+
+
