@@ -20,6 +20,7 @@
 		6F2ABF5D1567291800A6D2FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2ABF3E1567291700A6D2FE /* Foundation.framework */; };
 		6F2ABF651567291800A6D2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ABF631567291800A6D2FE /* InfoPlist.strings */; };
 		6F2ABF681567291800A6D2FE /* FizzBuzzCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2ABF671567291800A6D2FE /* FizzBuzzCalcTests.m */; };
+		6F2ABF731567507D00A6D2FE /* FZbrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2ABF721567507D00A6D2FE /* FZbrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		6F2ABF641567291800A6D2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F2ABF661567291800A6D2FE /* FizzBuzzCalcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FizzBuzzCalcTests.h; sourceTree = "<group>"; };
 		6F2ABF671567291800A6D2FE /* FizzBuzzCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FizzBuzzCalcTests.m; sourceTree = "<group>"; };
+		6F2ABF711567507D00A6D2FE /* FZbrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZbrain.h; sourceTree = "<group>"; };
+		6F2ABF721567507D00A6D2FE /* FZbrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZbrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				6F2ABF4B1567291800A6D2FE /* FZAppDelegate.h */,
 				6F2ABF4C1567291800A6D2FE /* FZAppDelegate.m */,
 				6F2ABF4E1567291800A6D2FE /* MainStoryboard.storyboard */,
+				6F2ABF711567507D00A6D2FE /* FZbrain.h */,
+				6F2ABF721567507D00A6D2FE /* FZbrain.m */,
 				6F2ABF511567291800A6D2FE /* FZViewController.h */,
 				6F2ABF521567291800A6D2FE /* FZViewController.m */,
 				6F2ABF431567291700A6D2FE /* Supporting Files */,
@@ -262,6 +267,7 @@
 				6F2ABF491567291700A6D2FE /* main.m in Sources */,
 				6F2ABF4D1567291800A6D2FE /* FZAppDelegate.m in Sources */,
 				6F2ABF531567291800A6D2FE /* FZViewController.m in Sources */,
+				6F2ABF731567507D00A6D2FE /* FZbrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
