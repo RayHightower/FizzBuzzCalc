@@ -21,6 +21,7 @@
 		6F2ABF651567291800A6D2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ABF631567291800A6D2FE /* InfoPlist.strings */; };
 		6F2ABF681567291800A6D2FE /* FizzBuzzCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2ABF671567291800A6D2FE /* FizzBuzzCalcTests.m */; };
 		6F2ABF731567507D00A6D2FE /* FZbrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2ABF721567507D00A6D2FE /* FZbrain.m */; };
+		6F6C4E1A15680B6F00A44DF1 /* SimpleFizzBuzz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6C4E1915680B6F00A44DF1 /* SimpleFizzBuzz.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6F2ABF671567291800A6D2FE /* FizzBuzzCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FizzBuzzCalcTests.m; sourceTree = "<group>"; };
 		6F2ABF711567507D00A6D2FE /* FZbrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZbrain.h; sourceTree = "<group>"; };
 		6F2ABF721567507D00A6D2FE /* FZbrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZbrain.m; sourceTree = "<group>"; };
+		6F6C4E1915680B6F00A44DF1 /* SimpleFizzBuzz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleFizzBuzz.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				6F2ABF4B1567291800A6D2FE /* FZAppDelegate.h */,
 				6F2ABF4C1567291800A6D2FE /* FZAppDelegate.m */,
 				6F2ABF4E1567291800A6D2FE /* MainStoryboard.storyboard */,
+				6F6C4E1915680B6F00A44DF1 /* SimpleFizzBuzz.storyboard */,
 				6F2ABF711567507D00A6D2FE /* FZbrain.h */,
 				6F2ABF721567507D00A6D2FE /* FZbrain.m */,
 				6F2ABF511567291800A6D2FE /* FZViewController.h */,
@@ -230,6 +233,7 @@
 			files = (
 				6F2ABF471567291700A6D2FE /* InfoPlist.strings in Resources */,
 				6F2ABF501567291800A6D2FE /* MainStoryboard.storyboard in Resources */,
+				6F6C4E1A15680B6F00A44DF1 /* SimpleFizzBuzz.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				6F2ABF6D1567291800A6D2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F2ABF6E1567291800A6D2FE /* Build configuration list for PBXNativeTarget "FizzBuzzCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				6F2ABF701567291800A6D2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
